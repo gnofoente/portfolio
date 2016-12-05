@@ -29,7 +29,7 @@ body {
 .container {
 	margin: 0 auto;
 	padding: 0;
-	width: 96%;
+	width: 98%;
 }
 
 /*
@@ -56,8 +56,11 @@ body {
 
 .picture {
 	border: 4px solid white;
-	height: 143px;
 	outline: 1px solid #adadad;
+}
+
+.picture_profile {
+	height: 143px;
 	width: 220px;
 }
 
@@ -105,3 +108,35 @@ body {
 /*
  * END OF HEADER
  */
+
+/*
+ * BODY
+ */
+
+.jobs {
+	margin-top: 15px;
+}
+
+.job {
+	display: inline-block;
+	margin-right: 2.5%;
+}
+
+.job:nth-child(4n) {
+	margin-right: 0;
+}
+
+ .job__image {
+ 	height: 245px;
+ 	width: 245px;
+ 	transition: box-shadow .3s ease;
+ }
+
+ .job__image:hover {
+ 	box-shadow: 0px 0px 6px 2px rgba(29, 129, 255, 0.69);
+ }
+
+ .job__name {
+ 	font-weight: normal;
+ 	font-size: 20px;
+ }
