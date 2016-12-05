@@ -64,16 +64,17 @@ body {
 	width: 220px;
 }
 
-.name {
-	color: #353535;
-	font-size: 20px;
-	font-weight: normal;
-}
-
 .text {
 	color: black;
 	font-size: 18px;
+	font-weight: lighter;
 }
+
+.name {
+	color: #353535;
+	font-size: 20px;
+}
+
 
 .text_fixed-bar {
 	color: #353535;
@@ -96,7 +97,6 @@ body {
 
 .header__main-text {
 	font-size: 47px;
-	font-weight: normal;
 	margin: 0;
 }
 
@@ -137,7 +137,6 @@ body {
  }
 
  .job__name {
- 	font-weight: normal;
  	font-size: 20px;
  }
 
@@ -152,3 +151,77 @@ body {
  .footer {
  	border-top: 1px solid #bfbfbf;
  }
+
+ .contact {
+ 	padding-left: 10px;
+ }
+
+ .contact__column {
+ 	display: inline-block;
+	vertical-align: top;
+ 	width: 49%;
+ }
+
+ .contact__title {
+ 	font-size: 30px;
+ }
+
+ .text_contact {
+ 	line-height: 1.5;
+ 	font-size: 16px;
+ }
+
+ .text_contact-link {
+ 	color: #0087ff;
+ 	display: inline-block;
+ 	font-size: 17px;
+ 	margin: 15px;
+ 	text-decoration: none;
+ }
+
+ .contact-form {
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+ }
+
+ .contact-form__label {
+ 	display: block;
+ 	font-size: 14px;
+ 	margin-bottom: 5px;
+ }
+
+ .contact-form__textfield {
+ 	border: 1px solid #b0b0b0;
+ 	height: 2.5em;
+ 	margin-bottom: 18px;
+ 	padding-left: 7px;
+ 	transition: border-color .3s ease;
+ 	width: 100%;
+ }
+
+ .contact-form__textfield:focus {
+ 	border-color: grey;
+ 	outline: none;
+ }
+
+ .contact-form__submit {
+	background: #0093ff;
+	border: 0;
+	color: white;
+	font-size: 14px;
+	height: 40px;
+ 	width: 100%;
+ 	transition: background .3s ease;
+ }
+
+ .contact-form__submit:hover {
+ 	background: #0077cc;
+ }
+
+ .contact-form__submit:active {
+ 	transform: translateY(3px);
+ }
+
+  /*
+ * END OF FOOTER
+ */
